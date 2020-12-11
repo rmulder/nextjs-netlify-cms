@@ -4,11 +4,20 @@ export default {
     name: 'github',
     repo: 'rmulder/nextjs-netlify-cms',
     branch: 'main',
-    /*base_url: 'https://nextjs-netlifycms.vercel.app',*/
+    /*base_url: 'https://familyhealthservices.vercel.app',*/
     auth_endpoint: 'api/auth',
   },
   media_folder: 'public/images',
   public_folder: 'images',
+  /*
+  site_url: 'http://familyhealthservices.org',
+  display_url: 'http://familyhealthservices.org',
+  logo_url: 'http://familyhealthservices.org/logo.svg',
+  slug: {
+    encoding: 'ascii,
+    clean_accents: true,
+  },
+  */
   collections: [
     {
       name: 'pages',
