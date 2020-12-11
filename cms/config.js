@@ -4,9 +4,11 @@ export default {
     name: 'github',
     repo: 'rmulder/nextjs-netlify-cms',
     branch: 'main',
+    /*base_url: 'https://nextjs-netlifycms.vercel.app',*/
+    auth_endpoint: 'api/auth',
   },
-  media_folder: 'public/img',
-  public_folder: 'img',
+  media_folder: 'public/images',
+  public_folder: 'images',
   collections: [
     {
       name: 'pages',
@@ -37,4 +39,4 @@ export default {
       ],
     },
   ],
-};
+}
