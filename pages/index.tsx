@@ -19,7 +19,7 @@ const HomePage: NextPage<Props> = ({ content }) => {
   );
 };
 export const getStaticProps: GetStaticProps = async () => {
-  const content = await import(`../content/pages/${'home'}.md`);
+  const content = await import(`../cms/content/pages/${'home'}.md`);
   return { props: { content: content.default } };
 };
 export default HomePage;

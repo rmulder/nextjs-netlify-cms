@@ -26,7 +26,7 @@ export default {
         {
           label: 'Home',
           name: 'home',
-          file: 'content/pages/home.md',
+          file: 'cms/content/pages/home.md',
           fields: [
             {
               label: 'Hero Title',
