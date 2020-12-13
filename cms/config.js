@@ -4,7 +4,7 @@ export default {
     name: 'github',
     repo: 'rmulder/nextjs-netlify-cms',
     branch: 'main',
-    /*base_url: 'https://familyhealthservices.vercel.app',*/
+    base_url: 'https://goofy-engelbart-c80d49.netlify.app',
     auth_endpoint: 'api/auth',
   },
   media_folder: 'public/images',
