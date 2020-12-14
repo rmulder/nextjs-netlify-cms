@@ -9,8 +9,8 @@
     "export": "NODE_ENV=production npm run build && next export"
   },
   "dependencies": {
-    "@now/node": "^1.8.5",
     "@types/simple-oauth2": "^4.1.0",
+    "@vercel/node": "^1.8.5",
     "netlify-cms-app": "^2.12.25",
     "next": "latest",
     "react": "^16.12.0",

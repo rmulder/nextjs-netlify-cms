@@ -1,8 +1,8 @@
-import simpleOauthModule from 'simple-oauth2'
+import { AuthorizationCode } from 'simple-oauth2'
 
 export const create = () =>
     // @ts-ignore
-    simpleOauthModule.create({
+  AuthorizationCode.create({
         client: {
             id: process.env.OAUTH_CLIENT_ID,
             secret: process.env.OAUTH_CLIENT_SECRET,
